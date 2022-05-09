@@ -1,0 +1,379 @@
+﻿@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #fff;
+    letter-spacing: -0.025em;
+    line-height: 1.75em;
+
+    font-family: "Merriweather", Georgia, serif;
+    font-weight: 300;
+    font-size: 1rem;
+    background-color: #3c3a3b;
+}
+
+
+.bg {
+    /*    Setting background image */
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/bg.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    /*  Image fade in Animation */
+    -moz-animation: wrapper 3s forwards;
+    -webkit-animation: wrapper 3s forwards;
+    -ms-animation: wrapper 3s forwards;
+    animation: wrapper 3s forwards;
+}
+
+
+ol, ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+/* Wrapper */
+
+@-moz-keyframes wrapper {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes wrapper {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes wrapper {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes wrapper {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+#header {
+    margin: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    -moz-animation: header 1s 2.25s forwards;
+    -webkit-animation: header 1s 2.25s forwards;
+    -ms-animation: header 1s 2.25s forwards;
+    animation: header 1s 2.25s forwards;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    opacity: 0;
+
+    /*to make sure you can scroll past footer*/
+    padding-bottom: 3em;
+
+}
+
+    #header #logo {
+        padding: 5em 0 0 0;
+    }
+
+    #header p {
+        text-align: center;
+        padding: 2em 0;
+    }
+
+
+
+
+    #header nav {
+        margin: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+    #header nav li {
+        -moz-animation: nav-icons 0.5s ease-in-out forwards;
+        -webkit-animation: nav-icons 0.5s ease-in-out forwards;
+        -ms-animation: nav-icons 0.5s ease-in-out forwards;
+        animation: nav-icons 0.5s ease-in-out forwards;
+        -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        display: block;
+        height: 4.35em;
+        line-height: 4.885em;
+        opacity: 0;
+        position: relative;
+        top: 0;
+        /*width: 5.35em;*/
+    }
+
+        #header nav li:nth-child(1) {
+            -moz-animation-delay: 2.5s;
+            -webkit-animation-delay: 2.5s;
+            -ms-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+        }
+
+        #header nav li:nth-child(2) {
+            -moz-animation-delay: 2.75s;
+            -webkit-animation-delay: 2.75s;
+            -ms-animation-delay: 2.75s;
+            animation-delay: 2.75s;
+        }
+
+        #header nav li:nth-child(3) {
+            -moz-animation-delay: 3s;
+            -webkit-animation-delay: 3s;
+            -ms-animation-delay: 3s;
+            animation-delay: 3s;
+        }
+
+    #header nav a {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-touch-callout: none;
+        border: 0;
+        display: inline-block;
+    }
+
+        #header nav a:before {
+            -moz-transition: all 0.2s ease-in-out;
+            -webkit-transition: all 0.2s ease-in-out;
+            -ms-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+            border-radius: 100%;
+            border: solid 1px #fff;
+            display: block;
+            font-size: 1.75em;
+            height: 2.5em;
+            line-height: 2.5em;
+            position: relative;
+            text-align: center;
+            top: 0;
+            width: 2.5em;
+        }
+
+        #header nav a:hover {
+            font-size: 1.1em;
+        }
+
+            #header nav a:hover:before {
+                background-color: rgba(255, 255, 255, 0.175);
+                color: #fff;
+            }
+
+        #header nav a:active {
+            font-size: 0.95em;
+            background: none;
+        }
+
+            #header nav a:active:before {
+                background-color: rgba(255, 255, 255, 0.35);
+                color: #fff;
+            }
+
+        #header nav a span {
+            display: none;
+        }
+
+#footer {
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,1));
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,1));
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,1));
+    background-image: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,1));
+    bottom: 0;
+    cursor: default;
+    height: 2.5em;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    font-size: 0.85rem;
+}
+
+    #footer p {
+        margin: 0;
+        position: absolute;
+        bottom: 0.3em;
+        right: 1em;
+    }
+
+    #footer p a {
+        color: #ccc;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+
+
+
+@-moz-keyframes header {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes header {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes header {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes header {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes nav-icons {
+    0% {
+        -moz-transform: translate3d(0,1em,0);
+        -webkit-transform: translate3d(0,1em,0);
+        -ms-transform: translate3d(0,1em,0);
+        transform: translate3d(0,1em,0);
+        opacity: 0;
+    }
+
+    100% {
+        -moz-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes nav-icons {
+    0% {
+        -moz-transform: translate3d(0,1em,0);
+        -webkit-transform: translate3d(0,1em,0);
+        -ms-transform: translate3d(0,1em,0);
+        transform: translate3d(0,1em,0);
+        opacity: 0;
+    }
+
+    100% {
+        -moz-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes nav-icons {
+    0% {
+        -moz-transform: translate3d(0,1em,0);
+        -webkit-transform: translate3d(0,1em,0);
+        -ms-transform: translate3d(0,1em,0);
+        transform: translate3d(0,1em,0);
+        opacity: 0;
+    }
+
+    100% {
+        -moz-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+@keyframes nav-icons {
+    0% {
+        -moz-transform: translate3d(0,1em,0);
+        -webkit-transform: translate3d(0,1em,0);
+        -ms-transform: translate3d(0,1em,0);
+        transform: translate3d(0,1em,0);
+        opacity: 0;
+    }
+
+    100% {
+        -moz-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}

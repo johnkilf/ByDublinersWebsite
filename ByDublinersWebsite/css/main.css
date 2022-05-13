@@ -250,6 +250,7 @@ ol, ul {
         position: absolute;
         bottom: 0.3em;
         right: 1em;
+/*        color: #ccc;*/
     }
 
     #footer p a {

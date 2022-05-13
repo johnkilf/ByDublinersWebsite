@@ -17,5 +17,21 @@
   <ItemGroup>
     <None Include="index.html" />
     <None Include="css\main.css" />
+    <None Include="js\cookieconsent.js" />
+    <None Include="css\cookieconsent.css" />
+    <None Include="images\bg copy.jpg" />
+    <None Include="images\bg.jpg" />
+    <None Include="images\Logo-Mobile.svg" />
+    <None Include="images\Logo-Web.png" />
+    <None Include="images\Logo-Web.svg" />
+    <None Include="images\podcast-listen-badges\badges_spotify-badge.svg" />
+    <None Include="images\podcast-listen-badges\badges_applepodcasts-badge.svg" />
+    <None Include="images\podcast-listen-badges\2A87FA0795818F88.png" />
+    <None Include="images\podcast-listen-badges\2A87FA0795818F89.png" />
+    <None Include="images\podcast-listen-badges\badges_amazon-badge.svg" />
+    <None Include="images\podcast-listen-badges\badges_googlepodcasts-badge.svg" />
+    <None Include="images\podcast-listen-badges\badges_amazonmusic-badge.svg" />
+    <None Include="js\cookieconsent-init.js" />
+    <None Include="index %28copy%29.html" />
   </ItemGroup>
 </Project>

@@ -175,6 +175,13 @@ ol, ul {
             animation-delay: 3s;
         }
 
+        #header nav li:nth-child(4) {
+            -moz-animation-delay: 3.25s;
+            -webkit-animation-delay: 3.25s;
+            -ms-animation-delay: 3.25s;
+            animation-delay: 3.25s;
+        }
+
     #header nav a {
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         -webkit-touch-callout: none;
@@ -230,6 +237,7 @@ ol, ul {
     bottom: 0;
     cursor: default;
     height: 2.5em;
+/*        height: 152px;*/
     left: 0;
     position: fixed;
     text-align: center;

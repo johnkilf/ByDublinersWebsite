@@ -32,6 +32,5 @@
     <None Include="images\podcast-listen-badges\badges_googlepodcasts-badge.svg" />
     <None Include="images\podcast-listen-badges\badges_amazonmusic-badge.svg" />
     <None Include="js\cookieconsent-init.js" />
-    <None Include="index %28copy%29.html" />
   </ItemGroup>
 </Project>
